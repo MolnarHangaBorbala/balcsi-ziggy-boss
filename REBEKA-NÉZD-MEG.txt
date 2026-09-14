@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digitális Minigaléria</title>
-</head>
-<body>
-    /*
+
     :root {
         /* Colors - Backgrounds */
         --bg: #f5f7fb;
@@ -43,6 +35,3 @@
 
         color-scheme: light;
         }
-    */
-</body>
-</html>
