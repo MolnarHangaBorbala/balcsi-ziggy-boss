@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Digitális Minigaléria</title>
-    <link rel="stylesheet" href="bevezető.css">
+
+    <link rel="stylesheet" href="../CSS/bevezető.css">
 </head>
 
 <body>
 
     <header class="site-header">
+
         <div class="header-inner">
 
             <a href="1. Bevezető.html" class="logo">
@@ -18,6 +21,7 @@
             </a>
 
             <nav class="navigation">
+
                 <a href="1. Bevezető.html" class="nav-link active">
                     Kezdőlap
                 </a>
@@ -29,13 +33,16 @@
                 <a href="3. Előtte-Utána.html" class="nav-link">
                     Előtte-Utána
                 </a>
+
             </nav>
 
         </div>
+
     </header>
 
-
     <main>
+
+
 
         <section class="hero">
 
@@ -50,44 +57,44 @@
                 </h1>
 
                 <p class="hero-description">
-                    Üdvözlünk
-                    <span>Molnár Csenge Katalin</span>
+
+                    Üdvözlünk <span>Molnár Csenge Katalin</span>
                     digitális minigalériájában!
 
                     <br>
 
-                    Ezen az oldalon
-                    <span>Csenge</span>
-                    festményeiből válogattunk össze néhány különleges alkotást,
-                    amelyek betekintést engednek az alkotó sajátos vizuális világába.
+                    Ezen az oldalon <span>Csenge</span> festményeiből
+                    válogattunk össze néhány különleges alkotást,
+                    amelyek betekintést engednek az alkotó sajátos
+                    vizuális világába.
+
                 </p>
 
                 <p class="hero-description">
+
                     A kiállításon keresztül szeretnénk megmutatni,
-                    hogyan jelennek meg
-                    <span>Csenge</span>
-                    képein a színek, a hangulatok és a különböző
+                    hogyan jelennek meg <span>Csenge</span> képein
+                    a színek, a hangulatok és a különböző
                     kompozíciós megoldások.
 
                     Minden festmény egy-egy különálló pillanatot
                     és gondolatot képvisel.
+
                 </p>
 
             </div>
-
 
             <div class="hero-image-wrapper">
 
                 <figure class="hero-figure">
 
-                    <img src="./IMG/vangogh.jpg" alt="Molnár Csenge Katalin egyik festménye" class="hero-image">
+                    <img src="../IMG/MCsK_portré.png" alt="Molnár Csenge Katalin egyik festménye" class="hero-image">
 
                 </figure>
 
             </div>
 
         </section>
-
 
         <section class="introduction">
 
@@ -103,37 +110,16 @@
                 </h2>
 
             </div>
-
-
             <div class="intro-grid">
 
 
                 <article class="info-card">
 
-                    <div class="card-image-box biography-slider">
+                    <div class="card-image-box">
 
-                        <button class="slider-button prev" onclick="changeSlide(this, -1)">
-                            &#10094;
-                        </button>
-
-
-                        <div class="slider-images">
-
-                            <img src="./IMG/gyerekkor.jpg" alt="Csenge gyerekkori fényképe" class="card-image active">
-
-                            <img src="./IMG/gyerekkor2.jpg" alt="Csenge gyerekkori fényképe" class="card-image">
-
-                            <img src="./IMG/gyerekkor3.jpg" alt="Csenge gyerekkori fényképe" class="card-image">
-
-                        </div>
-
-
-                        <button class="slider-button next" onclick="changeSlide(this, 1)">
-                            &#10095;
-                        </button>
+                        <img src="./IMG/gyerekkor.jpg" alt="Csenge gyerekkori fényképe" class="card-image">
 
                     </div>
-
 
                     <div class="card-content">
 
@@ -143,21 +129,15 @@
 
                         <p>
 
-                            Csenge
-                            <strong>(születési hely)</strong>
-                            született
-                            <strong>(születési év)</strong>-ben.
+                            Csenge <strong> Zalaegerszegen </strong> született
+                            <strong>2006</strong>-ben.
 
-                            Gyermekkorát
-                            <strong>(település / hely)</strong>
+                            Gyermekkorát <strong>Gyenesdiáson</strong>
                             töltötte, ahol családja fontos szerepet
                             játszott az életében.
 
                             Már fiatalabb korában is érdekelte
-                            <strong>
-                                (rajzolás / kreatív tevékenység / egyéb érdeklődés)
-                            </strong>,
-
+                            <strong>rajzolás és néptánc</strong>,
                             amely később a festészet felé is közelebb
                             vezette.
 
@@ -169,33 +149,11 @@
 
                 <article class="info-card">
 
-                    <div class="card-image-box biography-slider">
-
-                        <button class="slider-button prev" onclick="changeSlide(this, -1)">
-                            &#10094;
-                        </button>
-
-
-                        <div class="slider-images">
-
-                            <img src="./IMG/tanulmanyok.jpg" alt="Csenge tanulmányaihoz kapcsolódó fénykép"
-                                class="card-image active">
-
-                            <img src="./IMG/tanulmanyok2.jpg" alt="Csenge tanulmányaihoz kapcsolódó fénykép"
-                                class="card-image">
-
-                            <img src="./IMG/tanulmanyok3.jpg" alt="Csenge tanulmányaihoz kapcsolódó fénykép"
-                                class="card-image">
-
-                        </div>
-
-
-                        <button class="slider-button next" onclick="changeSlide(this, 1)">
-                            &#10095;
-                        </button>
+                    <div class="card-image-box">
+                        <img src="./IMG/tanulmanyok.jpg" alt="Csenge tanulmányaihoz kapcsolódó fénykép"
+                            class="card-image">
 
                     </div>
-
 
                     <div class="card-content">
 
@@ -205,24 +163,18 @@
 
                         <p>
 
-                            Tanulmányait
-                            <strong>(iskola neve)</strong>
+                            Tanulmányait a <strong>Kárpáti János Általános Iskola és Alapfokú Művészeti Iskola</strong>
                             intézményben kezdte, majd
-                            <strong>(jelenlegi / korábbi iskola)</strong>
+                            <strong>ZSZC Keszthelyi Közgazdasági Technikum</strong>
                             tanulója lett.
 
                             Az iskolai évek alatt több terület is
                             felkeltette az érdeklődését, ezek közül
                             különösen fontos számára
-                            <strong>
-                                (tantárgy / művészeti terület / hobbi)
-                            </strong>.
+                            <strong>(tantárgy / művészeti terület / hobbi)</strong>.
 
                             Szabadidejében szívesen foglalkozik
-                            <strong>
-                                (hobbi / érdeklődési kör)
-                            </strong>
-                            tevékenységekkel.
+                            <strong>műköröm építéssel</strong>.
 
                         </p>
 
@@ -232,30 +184,11 @@
 
                 <article class="info-card">
 
-                    <div class="card-image-box biography-slider">
+                    <div class="card-image-box">
 
-                        <button class="slider-button prev" onclick="changeSlide(this, -1)">
-                            &#10094;
-                        </button>
-
-
-                        <div class="slider-images">
-
-                            <img src="./IMG/festes.jpg" alt="Csenge festés közben" class="card-image active">
-
-                            <img src="./IMG/festes2.jpg" alt="Csenge festés közben" class="card-image">
-
-                            <img src="./IMG/festes3.jpg" alt="Csenge festés közben" class="card-image">
-
-                        </div>
-
-
-                        <button class="slider-button next" onclick="changeSlide(this, 1)">
-                            &#10095;
-                        </button>
+                        <img src="./IMG/festes.jpg" alt="Csenge festés közben" class="card-image">
 
                     </div>
-
 
                     <div class="card-content">
 
@@ -268,27 +201,18 @@
                             Csenge számára a festészet elsősorban
                             az önkifejezés egyik formája.
 
-                            <strong>
-                                (Mikor kezdett el festeni?)
-                            </strong>
-
+                            <strong>(Mikor kezdett el festeni?)</strong>
                             Az alkotás során szívesen kísérletezik
-                            <strong>
-                                (színek / formák / technikák)
-                            </strong>,
-
+                            <strong>(színek / formák / technikák)</strong>,
                             és különösen közel áll hozzá
-                            <strong>
-                                (kedvelt témák)
-                            </strong>.
+                            <strong>(kedvelt témák)</strong>.
 
                             Inspirációt jelent számára
-                            <strong>
-                                (például természet, emberek, érzések, más művészek)
-                            </strong>.
+                            <strong>(például természet, emberek,
+                                érzések, más művészek)</strong>.
 
-                            Munkáiban saját hangulatát és látásmódját
-                            szeretné megmutatni.
+                            Munkáiban saját hangulatát és
+                            látásmódját szeretné megmutatni.
 
                         </p>
 
@@ -328,8 +252,6 @@
 
     </main>
 
-
-
     <footer class="site-footer">
 
         <p>
@@ -337,43 +259,6 @@
         </p>
 
     </footer>
-
-    <script>
-
-        function changeSlide(button, direction) {
-
-            let slider = button.parentElement;
-
-            let images = slider.querySelectorAll(".card-image");
-
-            let current = slider.querySelector(".card-image.active");
-
-            let currentIndex = Array.from(images).indexOf(current);
-
-            images[currentIndex].classList.remove("active");
-
-            let newIndex = currentIndex + direction;
-
-
-            if (newIndex < 0) {
-
-                newIndex = images.length - 1;
-
-            }
-
-
-            if (newIndex >= images.length) {
-
-                newIndex = 0;
-
-            }
-
-
-            images[newIndex].classList.add("active");
-
-        }
-
-    </script>
 
 
 </body>
