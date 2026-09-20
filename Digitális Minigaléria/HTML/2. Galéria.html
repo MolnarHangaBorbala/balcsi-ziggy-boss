@@ -1,11 +1,286 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galéria</title>
+
+    <title>Galéria - Digitális Minigaléria</title>
+
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="shortcut icon" href="../IMG/paletteFavicon.png" type="image/x-icon">
+
 </head>
+
 <body>
-    
+    <header class="site-header">
+
+        <div class="header-inner">
+
+            <a href="1. Bevezető.html" class="logo">
+                Digitális Minigaléria
+            </a>
+
+            <nav class="navigation">
+                <a href="1. Bevezető.html" class="nav-link">
+                    Kezdőlap
+                </a>
+
+                <a href="2. Galéria.html" class="nav-link active">
+                    Galéria
+                </a>
+
+                <a href="3. Előtte-Utána.html" class="nav-link">
+                    Előtte-Utána
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="gallery-intro">
+            <p class="eyebrow">
+                Digitális festménykiállítás
+            </p>
+
+            <h1>
+                Csenge
+                <span>alkotásai</span>
+            </h1>
+
+            <p class="gallery-description">
+
+                A galériában Molnár Csenge Katalin
+                kiválasztott festményeit mutatjuk be.
+
+                Az alkotásokon keresztül megfigyelhetők
+                a különböző színek, formák, hangulatok
+                és kompozíciós megoldások.
+
+                Kattints egy képre a nagyobb megtekintéshez!
+
+            </p>
+        </section>
+
+        <section class="gallery">
+            <div class="gallery-grid">
+                <article class="gallery-card">
+                    <div class="gallery-image-box">
+                        <img src="../IMG/Galéria_képek/twentyonepilots.png" alt="Csenge egyik festménye" class="gallery-image"
+                            onclick="openImage(this.src)">
+                    </div>
+
+                    <div class="gallery-content">
+                        <h2>
+                            twentyonepilots
+                        </h2>
+
+                        <p class="artist">
+                            Molnár Csenge Katalin
+                        </p>
+
+                        <p class="source">
+                            saját alkotás
+                        </p>
+
+                        <p>
+
+                            (A festmény rövid bemutatása.
+                            Írjatok 1-2 mondatot arról,
+                            hogy mit ábrázol a kép,
+                            milyen hangulatot sugároz,
+                            illetve milyen színeket vagy
+                            formákat használ.)
+
+                        </p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <div class="gallery-image-box">
+                        <img src="../IMG/Galéria_képek/hajó.png" alt="Csenge egyik festménye" class="gallery-image"
+                            onclick="openImage(this.src)">
+                    </div>
+
+                    <div class="gallery-content">
+                        <h2>
+                            (A festmény címe)
+                        </h2>
+
+                        <p class="artist">
+                            Molnár Csenge Katalin
+                        </p>
+
+                        <p class="source">
+                            saját alkotás
+                        </p>
+
+                        <p>
+
+                            (A festmény rövid bemutatása.
+                            Írjátok le röviden az alkotás
+                            témáját, hangulatát és
+                            a legfontosabb vizuális elemeket.)
+
+                        </p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <div class="gallery-image-box">
+                        <img src="../IMG/Galéria_képek/koponya.png" alt="Csenge egyik festménye" class="gallery-image"
+                            onclick="openImage(this.src)">
+                    </div>
+
+                    <div class="gallery-content">
+                        <h2>
+                            (A festmény címe)
+                        </h2>
+
+                        <p class="artist">
+                            Molnár Csenge Katalin
+                        </p>
+
+                        <p class="source">
+                            saját alkotás
+                        </p>
+
+                        <p>
+
+                            (1-2 mondatos leírás az alkotásról.
+                            Például a színek, a kontraszt,
+                            a kompozíció vagy a kép hangulata.)
+
+                        </p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <div class="gallery-image-box">
+                        <img src="../IMG/Galéria_képek/kiss.png" alt="Csenge egyik festménye" class="gallery-image"
+                            onclick="openImage(this.src)">
+                    </div>
+
+                    <div class="gallery-content">
+                        <h2>
+                            (A festmény címe)
+                        </h2>
+
+                        <p class="artist">
+                            Molnár Csenge Katalin
+                        </p>
+
+                        <p class="source">
+                            saját alkotás
+                        </p>
+
+                        <p>
+
+                            (Az alkotás rövid bemutatása,
+                            valamint a rajta megjelenő
+                            fontosabb vizuális elemek.)
+
+                        </p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <div class="gallery-image-box">
+                        <img src="../IMG/Galéria_képek/Lovers.png" alt="Csenge egyik festménye" class="gallery-image"
+                            onclick="openImage(this.src)">
+                    </div>
+
+                    <div class="gallery-content">
+                        <h2>
+                            Lovers 
+                        </h2>
+
+                        <p class="artist">
+                            Molnár Csenge Katalin
+                        </p>
+
+                        <p class="source">
+                            by René Magritte
+                        </p>
+
+                        <p>
+
+                            (1-2 mondat az alkotásról,
+                            a választott színekről,
+                            a hangulatról és a kompozícióról.)
+
+                        </p>
+                    </div>
+                </article>
+
+                <article class="gallery-card">
+                    <div class="gallery-image-box">
+                        <img src="../IMG/Galéria_képek/kéz-könyv.png" alt="Csenge egyik festménye" class="gallery-image"
+                            onclick="openImage(this.src)">
+                    </div>
+
+                    <div class="gallery-content">
+                        <h2>
+                            cím
+                        </h2>
+
+                        <p class="artist">
+                            Molnár Csenge Katalin
+                        </p>
+
+                        <p class="source">
+                            saját alkotás
+                        </p>
+
+                        <p>
+
+                            (1-2 mondat az alkotásról,
+                            a választott színekről,
+                            a hangulatról és a kompozícióról.)
+
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="closing-section">
+            <div class="closing-content">
+                <p class="eyebrow">
+                    A kiállítás folytatódik
+                </p>
+
+                <h2>
+                    Az alkotás
+                    <span>folyamata.</span>
+                </h2>
+
+                <p>
+                    Nézd meg, hogyan változott az egyik
+                    alkotás a készítés során!
+                </p>
+
+                <a href="3. Előtte-Utána.html" class="secondary-button">
+                    Előtte-Utána →
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>
+            Digitális Minigaléria • Vizuális kultúra projekt
+        </p>
+    </footer>
+
+    <script>
+        function openImage(imageSource) {
+            window.open(imageSource, "_blank");
+        }
+    </script>
 </body>
+
 </html>
