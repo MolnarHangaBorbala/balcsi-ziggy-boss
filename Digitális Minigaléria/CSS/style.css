@@ -560,3 +560,77 @@ img {
     font-size: 24px;
   }
 }
+
+/* ELŐTTE-UTÁNA */
+.section-heading h1 {
+  font-size: 70px;
+  letter-spacing: -2px;
+}
+
+.section-heading h1 span {
+  color: var(--primary);
+}
+
+.bef-aft_description {
+  margin-bottom: 14px;
+  font-size: 17px;
+  color: var(--text-secondary);
+}
+
+.bef-aft_description span {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.bef-aft_eyebrow {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--primary);
+}
+
+.bef-aft_image {
+  width: fit-content;
+  height: fit-content;
+  object-fit: contain;
+  object-position: center;
+  cursor: pointer;
+  border-radius: 14px;
+}
+
+.bef-aft_card {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: stretch;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.bef-aft_card strong {
+  color: var(--primary);
+}
+
+.bef-aft_card h3 {
+  margin-bottom: 15px;
+  font-size: 25px;
+  color: var(--text);
+}
+
+.bef-aft_card p {
+  color: var(--text-secondary);
+  font-size: 16px;
+}
+
+.bef-aft_card_content {
+  width: 65%;
+  z-index: 10;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
